@@ -1,5 +1,5 @@
 python create_pretraining_data.py \
-  --input_file=/data/wikitext-103-raw/wiki.train.raw \
+  --input_file=../wikitext-103-raw/wiki.train.raw \
   --output_file=./tmp/tf_examples.tfrecord \
   --vocab_file=./model/vocab.txt \
   --do_lower_case=True \
